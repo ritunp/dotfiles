@@ -1,0 +1,10 @@
+set editing-mode vi
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\C-l": clear-screen
+
+# Lines below the keymap apply to that mode.
+set keymap vi-insert
+"jj": vi-movement-mode
+"\C-n": next-history
+"\C-p": previous-history
